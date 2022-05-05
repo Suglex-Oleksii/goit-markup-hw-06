@@ -67,6 +67,39 @@
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
             <button class="button-close" data-modal-close></button>
+            <h2 class="title-modal">Оставьте свои данные, мы вам перезвоним</h2>
+            <form class="form-modal">
+              <div class="form-modal-box">
+                <label for="name">Имя</label>
+                <input type="text" name="name" id="name" />
+              </div>
+              <div class="form-modal-box">
+                <label for="tel">Телефон</label>
+                <input type="tel" name="tel" id="tel" />
+              </div>
+              <div class="form-modal-box">
+                <label for="mail">Почта</label>
+                <input type="mail" name="mail" id="mail" />
+              </div>
+              <div class="form-modal-box">
+                <label for="comment">Комментарий</label>
+                <textarea
+                  type="comment"
+                  name="comment"
+                  id="comment"
+                  placeholder="Введите текст"
+                ></textarea>
+              </div>
+            </form>
+            <div class="form-modal-btn">
+              <input type="checkbox" name="" id="" />
+              <label for=""
+                >Соглашаюсь с рассылкой и принимаю<span
+                  ><a class="link-checkbox" href="">Условия договора</a></span
+                ></label
+              >
+              <button type="submit">Отправить</button>
+            </div>
           </div>
         </div>
       </section>
@@ -626,6 +659,21 @@
             </li>
           </ul>
         </div>
+        <form class="form-footer">
+          <div class="form-footer-box">
+            <h2 class="title-messengers">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h2>
+            <ul class="list-form">
+              <li class="footer-form-mail">
+                <input type="email" name="mail" placeholder="E-mail" />
+              </li>
+              <li class="footer-form-button">
+                <button type="submit" class="btn-footer-form">
+                  Подписаться
+                </button>
+              </li>
+            </ul>
+          </div>
+        </form>
       </div>
     </footer>
     <script src="./js/modal.js"></script>
