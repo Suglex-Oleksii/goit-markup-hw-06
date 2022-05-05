@@ -228,23 +228,20 @@ img {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
-  
+
   transition-property: opacity, translate;
 }
-
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
 }
-
 .modal {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 1;
-
   min-width: 528px;
   min-height: 581px;
   border-radius: 4px;
@@ -258,34 +255,27 @@ img {
   height: 30px;
   border-radius: 50px;
   border: 1px solid rgba(0, 0, 0, 0.1);
-    
   margin-left: auto;
   margin-right: 8px;
   margin-top: 8px;
-
   background-color: #ffffff;
   padding: 0;
-
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
+  cursor: pointer;
 }
-
 .button-icon-close {
   width: 18px;
-  height: 18px; 
+  height: 18px;
 }
-
 .button-close:hover {
   fill: #2196f3;
 }
 
-
 textarea {
   resize: none;
 }
-
-
 
 /* -- Section advantages -- */
 
@@ -695,11 +685,6 @@ textarea {
   height: 20px;
 }
 
-
-
-
-
-
 .form-footer-box {
   margin-left: 93px;
 }
@@ -752,9 +737,3 @@ textarea {
   height: 24px;
   margin-left: 10px;
 }
-
-
-
-
-
-
