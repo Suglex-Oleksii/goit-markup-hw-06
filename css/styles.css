@@ -273,8 +273,156 @@ img {
   fill: #2196f3;
 }
 
-textarea {
+.title-modal {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  color: rgba(33, 33, 33, 1);
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.title-modal {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40;
+  margin-bottom: 12px;
+}
+
+.form-modal {
+  width: 448px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-modal-box {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.form-modal-box:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.form-modal-box label {
+  margin-bottom: 4px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.2;
+  color: var(--text-color);
+  letter-spacing: 0.01em;
+}
+
+.form-modal-box input {
+  height: 40px;
+  padding-left: 40px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 14px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-modal-box textarea {
+  height: 120px;
+  padding: 12px 16px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
   resize: none;
+}
+
+.form-modal-box textarea::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.form-modal-box textarea:hover,
+.form-modal-box input:hover {
+  border-color: #2196f3;
+}
+
+.form-modal-box:hover .icon-email,
+.form-modal-box:hover .icon-phone,
+.form-modal-box:hover .icon-person {
+  fill: #2196f3;
+}
+
+.icon-person {
+  position: absolute;
+  top: 29px;
+  left: 14px;
+  width: 18px;
+  height: 18px;
+}
+
+.icon-phone {
+  position: absolute;
+  top: 29px;
+  left: 14px;
+  width: 18px;
+  height: 18px;
+}
+
+.icon-email {
+  position: absolute;
+  top: 29px;
+  left: 14px;
+  width: 18px;
+  height: 18px;
+}
+
+.form-modal-btn {
+  margin-top: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+}
+
+.text-checkbox {
+  margin-left: 9px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text-color);
+  letter-spacing: 0.03em;
+}
+
+.link-checkbox {
+  margin-left: 5px;
+  color: var(--active-button-color);
+}
+
+.button-modal-send {
+  background-color: var(--active-button-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  color: var(--background-header-color);
+  cursor: pointer;
+  border-radius: 4px;
+  border: 0;
+}
+.button-modal-send {
+  min-width: 200px;
+  padding: 10px 55px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.button-modal-send:hover {
+  background-color: #188ce8;
 }
 
 /* -- Section advantages -- */
