@@ -323,9 +323,6 @@ img {
   cursor: pointer;
 }
 
-
-
-
 .form-modal-box textarea {
   height: 120px;
   padding: 12px 16px;
@@ -342,16 +339,13 @@ img {
   color: rgba(117, 117, 117, 0.5);
 }
 
-
-.form-modal-box textarea:hover,
-.form-modal-box input:hover {
-  border-color: #2196f3;
+.form-modal-box textarea:focus,
+.form-modal-box input:focus {
+  border: 1px solid #2196f3;
+  outline: none;
 }
 
-
-.form-modal-box:hover .icon-email,
-.form-modal-box:hover .icon-phone,
-.form-modal-box:hover .icon-person {
+.form-modal-box input:focus ~ .icon {
   fill: #2196f3;
 }
 
@@ -385,11 +379,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.checkbox {
-  width: 16px;
-  height: 16px;
 }
 
 .text-checkbox {
@@ -859,6 +848,10 @@ img {
   font-size: 16px;
   line-height: 1.6;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-form-input:focus {
+  outline: none;
 }
 
 .footer-form-button {
