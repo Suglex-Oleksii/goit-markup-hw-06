@@ -109,15 +109,15 @@
                   placeholder="Введите текст"
                 ></textarea>
               </div>
+              <label class="label-checkbox">
+                <input class="checkbox" type="checkbox" name="checkbox" />
+                <span class="icon-check"></span>
+                Соглашаюсь с рассылкой и принимаю<span
+                  ><a class="link-checkbox" href="">Условия договора</a></span
+                ></label
+              >
+              <button type="submit" class="button-modal-send">Отправить</button>
             </form>
-            <label class="label-checkbox">
-              <input class="checkbox" type="checkbox" name="checkbox" />
-              <span class="icon-check"></span>
-              Соглашаюсь с рассылкой и принимаю<span
-                ><a class="link-checkbox" href="">Условия договора</a></span
-              ></label
-            >
-            <button type="submit" class="button-modal-send">Отправить</button>
           </div>
         </div>
       </section>
@@ -678,29 +678,21 @@
           </ul>
         </div>
         <form class="form-footer">
-          <div class="form-footer-box">
-            <h2 class="title-messengers">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h2>
-            <ul class="list-form">
-              <li class="footer-form-mail">
-                <input
-                  class="footer-form-input"
-                  type="email"
-                  name="mail"
-                  placeholder="E-mail"
-                  autocomplete="off"
-                />
-              </li>
-              <li class="footer-form-button">
-                <button type="submit" class="btn-footer-form">
-                  Подписаться
-                  <svg class="button-icon-send">
-                    <use
-                      href="./images/icons.svg/form/form-sprite.svg#send"
-                    ></use>
-                  </svg>
-                </button>
-              </li>
-            </ul>
+          <h2 class="title-messengers">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h2>
+          <div class="list-form">
+            <input
+              class="footer-form-input"
+              type="email"
+              name="mail"
+              placeholder="E-mail"
+              autocomplete="off"
+            />
+            <button type="submit" class="btn-footer-form">
+              Подписаться
+              <svg class="button-icon-send">
+                <use href="./images/icons.svg/form/form-sprite.svg#send"></use>
+              </svg>
+            </button>
           </div>
         </form>
       </div>
